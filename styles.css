@@ -57,14 +57,22 @@
     justify-content: space-between;
 }
 
+.main-body .container {
+    margin: 10px;
+    float:left;
+    text-align: left;
+}
 .main-body h2 {
-    color: aqua;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
 
 }
 .main-body .p-left{
     float: left;
+    font-size: 18px;
     display: flex;
-    color:wheat;
+    color: #e5e7eb;;
 }
 
 .main-body .photo {
@@ -83,6 +91,26 @@
     margin: 4px 2px;
     border-radius: 15px;
   }
+.container-2 {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 15px;
+    
+    }
+
+.headline {
+    text-align: center;
+    margin-bottom: 25px;
+    
+}
+img#photo1 {
+    width: 125px;
+    height: 125px;
+    
+    
+}
+
 
 footer{
     text-align: center;
