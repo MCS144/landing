@@ -1,3 +1,7 @@
+body {
+    font-family: 'Roboto'; 
+}
+
 .header {
     overflow: hidden;
     background-color: #1F2937;
@@ -111,9 +115,60 @@ img#photo1 {
     
 }
 
+.info {
+    text-align: center;
+    vertical-align: top;
+    display: inline-block;
+    width: 120px;  
+}
 
+.text {
+    display: block;
+}
+
+.container-3 {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: #1f2937;
+    width: auto;
+}
+
+.container-4 {
+    background-color: #3882F6 ;
+    margin: 50px 200px;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border-color: none;    
+ }
+
+  button {
+    padding: 8px 16px;
+    border-radius: 8px;
+    float: right;
+  }
+
+  button.signup {
+    background: #3882f6;
+    border: 1px solid #3882f6;
+    color: white;
+    border-color: #e5e7eb;
+  }
+  .header-1 {
+    display: flex;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  .text {
+    margin-bottom: 16px;
+  }
+  
 footer{
     text-align: center;
+    justify-content: center;
     color: wheat;
     background-color: #1F2937;
+    display: flex;
   }
